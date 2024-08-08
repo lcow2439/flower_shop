@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Rose Bouquet",
+    "price": 20,
+    "image": "f2.avif",
+    "description": "Elegant roses perfect for any event."
+  },
+  {
+    "name": "Tulip Arrangement",
+    "price": 15,
+    "image": "f3.jpg",
+    "description": "Bright and cheerful tulips."
+  },
+  {
+    "name": "Sunflower Bunch",
+    "price": 18,
+    "image": "f5.webp",
+    "description": "Sunflowers that bring sunshine to any room."
+  },
+  {
+    "name": "Lily Arrangement",
+    "price": 25,
+    "image": "f6.avif",
+    "description": "Beautiful lilies for an elegant touch."
+  }
+]

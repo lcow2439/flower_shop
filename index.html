@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <header>
+        <h1>Welcome to Lavish Flowers</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <img src="flower-store-templates.jpg" alt="main_image">
+        <h2>Beautiful Flowers for Every Occasion</h2>
+        <p>Discover our wide selection of flowers and bouquets.</p>
+    </section>
+
+    <section id="products">
+        <main>
+            <div class="product-gallery">
+                <!-- Products will be dynamically loaded here by JavaScript -->
+            </div>
+        </main>
+    </section>
+
+    <section id="about">
+        <div class="content">
+            <h2>About Us</h2>
+            <p>Welcome to Lavish Flowers, where the beauty of flowers meets the art of arrangement. As a family-owned flower shop, we take pride in curating exquisite floral designs that add a touch of elegance to any occasion.</p>
+            <p>Founded in 2015, our shop has grown from a small local business into a cherished destination for flower lovers. With a passion for flowers and a commitment to quality, we offer a diverse selection of blooms that are always fresh and vibrant.</p>
+            <p>At Lavish Flowers, our goal is to create memorable experiences for our customers. Whether you’re looking for the perfect bouquet for a wedding, a thoughtful gift for a loved one, or simply want to brighten up your space, we have something special for every occasion.</p>
+            
+            <div class="interactive">
+                <div>
+                    <h3>What Sets Us Apart</h3>
+                    <p><strong>Freshness Guaranteed:</strong> We source our flowers from trusted growers to ensure they are always at their best.</p>
+                    <p><strong>Customized Arrangements:</strong> Our team designs bespoke arrangements tailored to your preferences and budget.</p>
+                    <p><strong>Exceptional Service:</strong> From selection to delivery, we provide personalized service to make your experience exceptional.</p>
+                    
+                </div>
+                <div>
+                    <h3>Our Commitment to Sustainability</h3>
+                    <p>We are dedicated to making a positive impact on the environment. Our sustainable practices include eco-friendly packaging, reducing waste, and supporting local growers. By choosing Lavish Flowers, you contribute to a greener planet.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Shopping Cart Section -->
+    <aside id="cart">
+        <h2>Shopping Cart</h2>
+        <div id="cart-items">
+            <!-- Cart items will be dynamically loaded here by JavaScript -->
+        </div>
+        <div id="tax"></div>
+        <div id="total-price"></div>
+        <button id="checkout">Checkout</button>
+        <button id="clear-cart">Clear Cart</button>
+    </aside>
+    <div id="notification" class="notification"></div>
+
+    <footer>
+        <p>&copy; 2024 Lavish Flowers. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
